@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: task-manager-backend
+    name: task-manager-backends
     env: node
     plan: free
     buildCommand: npm install
