@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: Mernsqltask
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node app.js
+    rootDir: task-manager-backend
+    autoDeploy: true
